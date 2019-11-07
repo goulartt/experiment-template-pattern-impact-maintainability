@@ -8,8 +8,11 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import br.edu.utfpr.dv.sireata.model.Pauta;
 
+@Repository
 public class PautaDAO {
 	
 	public Pauta buscarPorId(int id) throws SQLException{
